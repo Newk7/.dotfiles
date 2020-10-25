@@ -20,10 +20,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " vim-airline
     Plug 'vim-airline/vim-airline'
+    " Nerd tree with extra
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'ryanoasis/vim-devicons'
     Plug 'airblade/vim-gitgutter'
+    " snippets
+    Plug 'honza/vim-snippets'
+    
     " Lan Client
     "Plug 'autozimu/LanguageClient-neovim', {
     "  \ 'branch': 'next',
