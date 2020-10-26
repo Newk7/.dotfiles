@@ -53,6 +53,8 @@ colorscheme gruvbox
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * NERDTree
 
+highlight! link NERDTreeFlags NERDTreeDir
+
 let g:NERDTreeGitStatusWithFlags = 1
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 let g:NERDTreeGitStatusNodeColorization = 1
