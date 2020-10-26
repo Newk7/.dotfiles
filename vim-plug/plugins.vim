@@ -30,7 +30,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'airblade/vim-gitgutter'
-    
+
     " Lan Client
     "Plug 'autozimu/LanguageClient-neovim', {
     "  \ 'branch': 'next',
