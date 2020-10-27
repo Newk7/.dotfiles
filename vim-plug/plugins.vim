@@ -30,6 +30,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'airblade/vim-gitgutter'
+    "FZF fuzzy search
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
 
     " Lan Client
     "Plug 'autozimu/LanguageClient-neovim', {
