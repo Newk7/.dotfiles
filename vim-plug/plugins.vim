@@ -57,8 +57,8 @@ call plug#end()
 " colorscheme gruvbox
 
 " open NERDTree automatically
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * NERDTree
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * NERDTree
 
 highlight! link NERDTreeFlags NERDTreeDir
 
