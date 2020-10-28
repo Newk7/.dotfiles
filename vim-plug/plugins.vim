@@ -40,23 +40,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Text navigation
     Plug 'justinmk/vim-sneak'
-
-    " Lan Client
-    "Plug 'autozimu/LanguageClient-neovim', {
-    "  \ 'branch': 'next',
-    "  \ 'do': 'bash install.sh',
-    " \ }
-    "" Type Script
-    "Plug 'leafgarland/typescript-vim'
-    "Plug 'peitalin/vim-jsx-typescript'
-
-    "" Javascript 
-    "Plug 'pangloss/vim-javascript'
+    " Type Script
+    Plug 'leafgarland/typescript-vim'
+    Plug 'peitalin/vim-jsx-typescript'
+    " Javascript 
+    Plug 'pangloss/vim-javascript'
     " ### GOLANG PLUGS ###
-    "Plug 'fatih/vim-go'
+    Plug 'fatih/vim-go'
     " ### Python Plugs ###
     " Jedi-Vim For Python Completion 
-    "Plug 'davidhalter/jedi-vim'
+    Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
