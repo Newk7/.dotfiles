@@ -50,6 +50,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " ### Python Plugs ###
     " Jedi-Vim For Python Completion 
     Plug 'davidhalter/jedi-vim'
+    " Prisma Syntax
+    Plug 'pantharshit00/vim-prisma'
 
 call plug#end()
 

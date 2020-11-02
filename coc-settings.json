@@ -13,7 +13,8 @@
     "yaml",
     "json",
     "python",
-    "golang"
+    "golang",
+    "prisma"
   ],
   // python
   "python.linting.enabled": true,
