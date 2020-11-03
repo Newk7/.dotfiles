@@ -12,7 +12,8 @@ nnoremap <M-l>    :vertical resize +2<CR>
 nnoremap <M-v> :source $MYVIMRC<CR>
 
 " Open Nerd Tree
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-n>     :NERDTreeToggle<CR>
+nnoremap <M-tab>   :tabnext<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
