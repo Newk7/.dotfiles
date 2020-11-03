@@ -40,18 +40,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Text navigation
     Plug 'justinmk/vim-sneak'
-    " Type Script
-    Plug 'leafgarland/typescript-vim'
-    Plug 'peitalin/vim-jsx-typescript'
-    " Javascript 
-    Plug 'pangloss/vim-javascript'
-    " ### GOLANG PLUGS ###
-    Plug 'fatih/vim-go'
-    " ### Python Plugs ###
-    " Jedi-Vim For Python Completion 
-    Plug 'davidhalter/jedi-vim'
     " Prisma Syntax
     Plug 'pantharshit00/vim-prisma'
+    " Type Script
+     " Plug 'leafgarland/typescript-vim'
+     " Plug 'peitalin/vim-jsx-typescript'
+    " Javascript 
+     " Plug 'pangloss/vim-javascript'
+    " ### GOLANG PLUGS ###
+     " Plug 'fatih/vim-go'
+    " ### Python Plugs ###
+    " Jedi-Vim For Python Completion 
+     " Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
