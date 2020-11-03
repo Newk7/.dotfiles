@@ -42,16 +42,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
     " Prisma Syntax
     Plug 'pantharshit00/vim-prisma'
+    
+    "#################################
+    "#### OPTIONAL LANGUAGE PACKS ####
+    "#################################
     " Type Script
      " Plug 'leafgarland/typescript-vim'
      " Plug 'peitalin/vim-jsx-typescript'
     " Javascript 
      " Plug 'pangloss/vim-javascript'
-    " ### GOLANG PLUGS ###
+    " GoLang
      " Plug 'fatih/vim-go'
-    " ### Python Plugs ###
-    " Jedi-Vim For Python Completion 
+    " Python
      " Plug 'davidhalter/jedi-vim'
+    " C#
+     " Plug 'OmniSharp/omnisharp-vim' 
 
 call plug#end()
 
