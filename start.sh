@@ -16,7 +16,7 @@ tmux new-session -d -s $session
 
 # Split pane 0 veritical by 90%
 tmux selectp -t 0 
-tmux splitw -h -p 10
+tmux splitw -h -p 5
 
 # Select pane 1 
 tmux selectp -t 1
