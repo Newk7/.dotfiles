@@ -13,8 +13,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
-    " Plug 'morhetz/gruvbox'
-    Plug 'joshdick/onedark.vim'
+    Plug 'morhetz/gruvbox'
+     " Plug 'joshdick/onedark.vim'
     " DevIcons 
     Plug 'ryanoasis/vim-devicons'
     " Intellisense
@@ -64,7 +64,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 call plug#end()
 
-" colorscheme gruvbox
+colorscheme gruvbox
 
 " open NERDTree automatically
 autocmd StdinReadPre * let s:std_in=1
