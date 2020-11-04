@@ -6,3 +6,8 @@ source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
+
+" Removes NERDTree devicon brackets on nvim reset
+if exists("g:loaded_webdevicons")
+  call webdevicons#refresh()
+endif
