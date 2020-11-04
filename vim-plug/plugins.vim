@@ -43,6 +43,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Prisma Syntax
     Plug 'pantharshit00/vim-prisma'
     
+    " Terraform
+     "Plug 'hashivim/vim-terraform'
+     "Plug 'juliosueiras/vim-terraform-completion' 
+    
     "#################################
     "#### OPTIONAL LANGUAGE PACKS ####
     "#################################
