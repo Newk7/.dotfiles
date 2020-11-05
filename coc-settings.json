@@ -13,8 +13,7 @@
     "json",
     "python",
     "golang",
-    "prisma",
-    "terraform"
+    "prisma"
   ],
   // python
   "python.linting.enabled": true,
