@@ -41,6 +41,9 @@ brew install node
 brew install yarn
 brew install tmux
 
+# Powerlevel10k
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
 # Clone setup
 if [ -d "~/.config/nvim" ]
 then 
@@ -49,3 +52,7 @@ else
   mkdir -p ~/.config/nvim
   git clone https://github.com/Newk7/.dotfiles.git ~/.config/nvim
 
+# Replacing key user files
+cp ~/.config/nvim/.p10k.zsh ~/
+cp ~/.config/nvim/.tmux.conf ~/
+cp ~/.config/nvim/.zshrc ~/
