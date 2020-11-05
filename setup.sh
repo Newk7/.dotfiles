@@ -8,6 +8,12 @@ mkdir -p ~/projects/
 
 ##### Run Installs #####
 
+# Install Iterm2
+brew cask install iterm2
+
+# NeoVim
+brew install neovim
+
 # Golang
 curl -o golang.pkg https://dl.google.com/go/go1.14.2.darwin-amd64.pkg
 sudo open golang.pkg
@@ -16,12 +22,13 @@ sudo open golang.pkg
 brew install python3
 python3 -m pip install pynvim
 
-# Install Iterm2
-brew cask install iterm2
+# Node
+brew install node
+npm i -g neovim
 
 # Install zsh and oh-my-zsh
 brew install zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Misc installs
 brew install git
@@ -34,5 +41,11 @@ brew install node
 brew install yarn
 brew install tmux
 
-# NeoVim
-brew install neovim
+# Clone setup
+if [ -d "~/.config/nvim" ]
+then 
+  git clone https://github.com/Newk7/.dotfiles.git ~/.config/nvim
+else 
+  mkdir -p ~/.config/nvim
+  git clone https://github.com/Newk7/.dotfiles.git ~/.config/nvim
+
