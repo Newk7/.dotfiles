@@ -38,22 +38,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Prisma Syntax
     Plug 'pantharshit00/vim-prisma'
     " Terraform
-    Plug 'hashivim/vim-terraform'    
-
-    "#################################
-    "#### OPTIONAL LANGUAGE PACKS ####
-    "#################################
-    " Type Script
-     " Plug 'leafgarland/typescript-vim'
-     " Plug 'peitalin/vim-jsx-typescript'
-    " Javascript 
-     " Plug 'pangloss/vim-javascript'
-    " GoLang
-     " Plug 'fatih/vim-go'
-    " Python
-     " Plug 'davidhalter/jedi-vim'
+    Plug 'hashivim/vim-terraform'     
     " C#
-     " Plug 'OmniSharp/omnisharp-vim' 
+    " Plug 'OmniSharp/omnisharp-vim' 
 
 call plug#end()
 

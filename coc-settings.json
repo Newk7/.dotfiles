@@ -12,7 +12,7 @@
     "yaml",
     "json",
     "python",
-    "golang",
+    "go",
     "prisma"
   ],
   // python

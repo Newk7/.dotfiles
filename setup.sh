@@ -23,6 +23,9 @@ brew install python3
 python3 -m pip install pynvim
 
 # Node
+# Install Node Version Manager
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | zsh
+nvm install node
 brew install node
 npm i -g neovim
 
