@@ -14,7 +14,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'morhetz/gruvbox'
-     " Plug 'joshdick/onedark.vim'
     " DevIcons 
     Plug 'ryanoasis/vim-devicons'
     " Intellisense
@@ -36,15 +35,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     " Git integration
     Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-rhubarb'
-    Plug 'junegunn/gv.vim'
-    " Text navigation
-    Plug 'justinmk/vim-sneak'
     " Prisma Syntax
     Plug 'pantharshit00/vim-prisma'
     " Terraform
     Plug 'hashivim/vim-terraform'    
-    Plug 'juliosueiras/vim-terraform-completion'
 
     "#################################
     "#### OPTIONAL LANGUAGE PACKS ####
